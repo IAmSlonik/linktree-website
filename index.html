@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@username</title>
+</head>
+<body>
+    <div class="niger"><div class="cymce">ES</div></div>
+    <h1 class="cimpa">@username</h1>
+    <div class="linksContainer">
+        <div class="link" id="of">
+            <a>EXAMPLE</a>
+        </div>
+    </div>
+</body>
+<style>
+body{
+    background-color: rgb(30,30,30);
+    text-align: center;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+.cymce{
+    background-color: white;
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.niger{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cimpa{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.link {
+    margin-bottom: 16px;
+    height: 21px;
+    overflow: hidden;
+    z-index: 0;
+    transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+    border: none;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    width: 640px;
+    background-color: rgba(255, 255, 255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4px;
+    box-shadow: rgb(10 11 13 / 8%) 0px 2px 4px 0px;
+    padding: 17px;
+
+    transition: ease .5s;
+    -webkit-transition: ease .4s;
+}.link:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a {
+    font-weight: 500;
+    border: none;
+    align-items: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px 20px;
+}
+</style>
+<script>
+    document.getElementById("of").onclick = function() {  
+        window.open("https://localhost", "_blank");
+    }
+    
+</script>
+</html>
